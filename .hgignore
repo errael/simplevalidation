@@ -1,0 +1,21 @@
+\.log$
+
+syntax: glob
+target/
+**/target/
+
+# Flatten Maven Plugin generated files
+.flattened-pom.xml
+flattened-pom.xml
+**/.flattened-pom.xml
+**/flattened-pom.xml
+
+*~
+*.sw[pmno]
+*.orig
+*.orig.*
+*.rej
+
+tags
+
+syntax: rootglob
